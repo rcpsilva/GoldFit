@@ -1,0 +1,74 @@
+/* EVALUATE STYLES */
+.box{
+    width: 740px;
+    margin: auto;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.text-title{
+    font-weight: bold;
+    margin-left: -520px; /*gambiarra - tem que sair*/
+    margin-top: 30px;
+}
+
+.first-part{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.second-part{
+    margin-top:  6%;
+    margin-bottom: 6%;
+}
+
+.third-part{
+    display: flex;
+    padding-left: 19%;
+    flex-direction: column;
+}
+
+.attemps{
+    padding-left: 17%;
+    padding-bottom: 2%;
+    font-weight: 500;
+}
+
+.text-attemps{
+    padding-left: 9%;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    width: 130px;
+    text-align: justify;
+}
+
+p {
+    text-align: center;
+}
+
+.form-evaluate{
+    margin-top: 80px;
+    margin: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+    .box{
+        width: 900px;
+        margin-top: 7vh;
+        margin-bottom: 7vh;
+    }
+
+    .form-evaluate{
+        margin-top: 40px;
+        
+    }
+}
